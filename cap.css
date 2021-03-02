@@ -1,0 +1,45 @@
+
+#svg {
+    height: 40vw;
+    width: 40vw;
+}
+.shadow-layer{
+    pointer-events: none;
+}
+
+/*add mouse events to relevant g elements*/
+
+.red-fill {
+    fill: red;
+}
+
+.green-fill {
+    fill: green;
+}
+
+.blue-fill {
+    fill: blue;
+}
+
+.yellow-fill {
+    fill: yellow;
+}
+
+g#shadow_Image{
+    pointer-events: none;
+}
+
+#crown path,
+#visor path{
+    pointer-events: fill;
+}
+
+/******Colour Boxes******/
+
+svg rect:hover{
+    cursor: pointer;
+}
+
+#svg svg:hover {
+    cursor:pointer;
+}
